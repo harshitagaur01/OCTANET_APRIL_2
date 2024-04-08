@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.day{
+    margin:20px 100px;
+    padding: 30px;
+    border-bottom: solid;
+    border-width: 0.1px;
+    border-color: grey;
+}
+
+.task{
+    margin:10px 100px ;
+}
+
+#add{
+    margin-top: 6px;
+    background-color: transparent;
+    color:#ba434d;
+    border-style: none;
+    font-size: 20px;
+    height: 28px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#add:hover{
+    background-color:#ba434d;
+    color:white;
+}
+
+.task p{
+    color:grey;
+    display: inline;
+    font-size: 15px;
+}
+
+.task p:hover{
+    color:#ba434d;
+}
+
+#write{
+    padding: 10px;
+    margin: 6px 200px;
+    height: 200px;
+    width:800px;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: grey;
+    border-radius:10px;
+    display: none;
+}
+
+#task{
+    padding: 2px;
+    border-style:none;
+    display: block;
+    font-size: 15px;
+    width:100%;
+    font-weight: 200;
+}
+#desc{
+    padding: 7px;
+    border-style:none;
+    display: block;
+    font-size: 12px;
+    width:90%;
+    margin-top: 2px;
+}
+
+.reminder{
+    padding: 15px 25px 15px 0px;
+}
+
+#date{
+    color: grey;
+    border-width: 0.1px;
+    height: 25px;
+    border-radius: 5px;
+}
+#Priority{
+    color: grey;
+    border-width: 0.1px;
+    height: 25px;
+    border-radius: 5px;
+    margin-left:15px;
+    width:100px;
+    background-color: transparent;
+}
+
+#box{
+    color: grey;
+    border-radius: 5px;
+    border-width: 0px;
+    height: 25px;
+    width: 50%;
+}
+
+.button{
+    border-top-style: solid;
+    border-color: grey;
+    border-width: 0.2px;
+    padding:25px;
+}
+
+#cancel{
+    margin-left: 550px;
+    height: 30px;
+    border-width: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#done{
+    height: 30px;
+    border-width: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+#done:hover{
+    height: 32px;
+}
+
+.remo{
+    position: relative;
+    color:black;
+    background: linear-gradient(to right, #EAE5C9 , #6CC6CB);
+    font-size: 15px;
+    padding: 7px;
+    text-align: left;
+    display: block;
+}
+
+#check{
+    margin:2px 4px;
+    padding-right: 5px;
+}
+
+
+@media screen and (max-width:900px) {
+    #write{
+        margin: 6px 20px;
+        width:80%;
+    }
+    #cancel{
+        margin-left: 20px;
+       
+    }
+    .day{
+        margin:20px 20px;
+        padding: 30px;
+    }
+    .task{
+        margin:10px 20px ;
+    }
+}

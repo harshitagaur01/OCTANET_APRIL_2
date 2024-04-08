@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="list.css">
+    <title>my list</title>
+</head>
+<body>
+    <div class="day">
+        <h1><b><i>My ToDo List</i></b></h1>
+        <div class="text">
+        </div>
+    </div>
+    <div class="task">
+        <button id="add" onclick="document.getElementById('write').style.display='block'">+</button><p>Add task</p>
+    </div>
+
+    <div class="write" id="write">
+        <input type="text" id="task" placeholder="Task name">
+        <input type="text" id="desc" placeholder="Description">
+        <div class="reminder">
+        <input type="date" id="date">
+        <select id="Priority">
+            <option id="priority1"> priority 1</option>
+            <option id="priority2"> priority 2</option>
+            <option id="priority3"> priority 3</option>
+            <option id="priority4"> priority 4</option>
+        </select>
+    </div>
+        <input type="text" placeholder="Inbox" id="box">
+        <div class="button">
+            <button id="cancel" onclick="document.getElementById('write').style.display='none'">Cancel</button>
+            <button id="done" onclick="addtask()">Add Task</button>
+        </div>
+    </div>
+    <script src="list2.js"></script>
+</body>
+</html>
